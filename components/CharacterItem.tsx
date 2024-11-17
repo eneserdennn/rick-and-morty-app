@@ -14,9 +14,6 @@ const CharacterItem: React.FC<CharacterItemProps> = ({
   query,
   onSelect,
 }) => {
-  console.log("====================================");
-  console.log("Character", character.image);
-  console.log("====================================");
   return (
     <Pressable
       onPress={() => onSelect(character)}

@@ -1,6 +1,10 @@
-# Welcome to your Expo app 👋
+# Welcome to the Rick and Morty App 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+## About the App
+
+The Rick and Morty App allows users to search for characters from the popular TV show "Rick and Morty". Users can view character details, filter characters based on their names, and manage a list of selected characters.
 
 ## Get started
 
@@ -13,7 +17,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
 In the output, you'll find options to open the app in a
@@ -25,26 +29,14 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## How to Use
 
-When you're ready, run:
+1. **Search for Characters**: Use the search bar at the top of the screen to type in the name of a character. The app will filter the list of characters based on your input.
 
-```bash
-npm run reset-project
-```
+2. **Manage Selected Characters**: You can select characters by tapping on them. Selected characters will be displayed below the search bar. To remove a character from the selected list, tap the "X" next to their name.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Screenshots
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![Screenshot 1](https://i.ibb.co/6gmrmG0/Simulator-Screenshot-i-Phone-Xs-2024-11-17-at-16-57-32.png)
+![Screenshot 2](https://i.ibb.co/m5WDmK0/Simulator-Screenshot-i-Phone-Xs-2024-11-17-at-16-57-02.png)
+![Screenshot 3](https://i.ibb.co/5WPrtmm/Simulator-Screenshot-i-Phone-Xs-2024-11-17-at-16-56-56.png)
